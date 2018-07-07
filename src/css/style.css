@@ -104,16 +104,30 @@ nav ul li:hover > ul {
   left: 50%;
   transform: translateX(-50%) translateY(-50%);
   }
-  .slogan h2 {
+
+.slogan h2 {
   text-transform: uppercase;
   color: #FFFFFF;
   padding: 10px 20px;
   text-align: center;
-  }
-  .slogan h2 span {
+}
+
+.slogan h2 span {
   color: #e00986;
-  }
-  .yellow-text {
+}
+
+.yellow-text {
   font-size: 40px;
   color: #fbb619!important;
-  }
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 10px 20px;
+}
+
+.about-section {
+  width: 100%;
+  background-color: #f29cd9;
+}
