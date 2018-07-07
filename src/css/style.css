@@ -131,3 +131,14 @@ nav ul li:hover > ul {
   width: 100%;
   background-color: #f29cd9;
 }
+
+.about-section h2 {
+  margin: 0;
+  padding: 20px;
+  font-size: 30px;
+}
+
+.about-section img {
+  margin: 10px auto 30px;
+  display: block;
+}
