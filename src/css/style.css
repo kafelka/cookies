@@ -1,12 +1,14 @@
 /* @import url('https://fonts.googleapis.com/css?family=Lato:300,400,700&subset=latin-ext'); */
 * {
-  margin: 0;
-  padding: 0;
   box-sizing: border-box;
 }
+
 body {
   font-family: 'Lato', sans-serif;
   color: #333;
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
 }
 
 header {
@@ -39,4 +41,47 @@ nav ul li {
 
 .clear {
   clear: both;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #e00986;
+  line-height: 80px;
+  padding: 0 10px;
+  display: block;
+}
+
+nav ul li a:hover {
+color: #fff;
+transition-duration: 2s;
+}
+
+nav ul ul {
+  background-image: radial-gradient(circle, #051937, #004d7a, #008793, #00bf72, #a8eb12);
+  text-align: left;
+  width: 100%;
   }
+
+nav ul li:hover > ul {
+  display: block;
+  position: absolute;
+  z-index: 1;
+  }
+
+  nav ul ul li {
+    display: block;
+}
+
+nav ul ul li a {
+    padding: 0 15px;
+}
+
+nav ul li:hover > ul {
+    display: block;
+    position: absolute;
+    z-index: 1;
+}
+
+.clear {
+    clear: both;
+}
