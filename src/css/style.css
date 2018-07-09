@@ -189,4 +189,15 @@ nav ul li:hover > ul {
   -moz-box-shadow: 4px 4px 24px 1px rgba(102,184,196,0.75);
   box-shadow: 4px 4px 24px 1px rgba(102,184,196,0.75);
   text-align: center;
-  }
+}
+
+footer {
+  background-image: radial-gradient(circle, #051937, #004d7a, #008793, #00bf72, #a8eb12);
+  text-align: center;
+  padding: 10px;
+}
+
+footer a {
+text-decoration: none;
+color: #e00986;
+}
