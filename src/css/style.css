@@ -201,3 +201,23 @@ footer a {
 text-decoration: none;
 color: #e00986;
 }
+
+.contact-section {
+  -webkit-box-shadow: 4px 4px 24px 1px rgba(224,9,134,0.75);
+  -moz-box-shadow: 4px 4px 24px 1px rgba(224,9,134,0.75);
+  box-shadow: 4px 4px 24px 1px rgba(224,9,134,0.75);
+  margin: 40px auto;
+  max-width: 600px;
+}
+
+form {
+  margin: 0 auto;
+  max-width: 500px;
+  text-align: center;
+}
+
+label {
+  display: block;
+  text-align: center;padding: 15px;
+  margin: 10px auto;
+}
